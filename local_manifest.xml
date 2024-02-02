@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
+  <remote name="PEX" fetch="https://github.com/PixelExperience" />
 
   <!-- /* device specific */ -->
 
   <!-- device -->
-  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="t25" revision="kenvyra-13.0" />
+  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="t25" revision="exthm-Tenshi" />
 
   <!-- vendor -->
-  <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene.git" remote="t25" revision="thirteen" />
+  <project path="vendor/xiaomi/selene" name="legacy_vendor_xiaomi_selene.git" remote="t25" revision="Tenshi" />
 
   <!-- kernel -->
-  <project path="kernel/xiaomi/selene" name="yuki_kernel_xiaomi_selene.git" remote="t25" revision="niigo" />
+  <project path="kernel/xiaomi/selene" name="android_kernel_xiaomi_selene.git" remote="t25" revision="Tenshi" />
 
   <!-- /* common mtk */ -->
 
@@ -22,5 +22,13 @@
 
   <!-- sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-20" />
+
+  <!-- /* compat */ -->
+
+  <!-- camera -->
+  <project path="hardware/lineage/compat" name="android_hardware_lineage_compat.git" remote="LOS" revision="lineage-20.0" />
+
+  <!-- sound -->
+  <project path="external/tinyxml" name="external_tinyxml.git" remote="PEX" revision="thirteen" />
 
 </manifest>
