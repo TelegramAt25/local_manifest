@@ -2,7 +2,7 @@
 <manifest>
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
-  <remote name="PEX" fetch="https://github.com/PixelExperience" />
+  <remote name="mt" fetch="https://github.com/mt6768-dev" />
 
   <!-- /* device specific */ -->
 
@@ -26,6 +26,6 @@
   <!-- /* common xiaomi */ -->
 
   <!-- hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="LOS" revision="lineage-21" />
+  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="mt" revision="lineage-21" />
 
 </manifest>
