@@ -21,7 +21,7 @@
   <project path="hardware/mediatek" name="android_hardware_mediatek.git" remote="t25" revision="lineage-20" />
 
   <!-- sepolicy -->
-  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="LOS" revision="lineage-20" />
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="t25" revision="walmart_lineage-21" />
 
   <!-- /* common xiaomi */ -->
 
