@@ -2,12 +2,11 @@
 <manifest>
   <remote name="t25" fetch="https://github.com/TelegramAt25" />
   <remote name="LOS" fetch="https://github.com/LineageOS" />
-  <remote name="mt" fetch="https://github.com/mt6768-dev" />
 
   <!-- /* device specific */ -->
 
   <!-- device -->
-  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="t25" revision="lineage-21" />
+  <project path="device/xiaomi/selene" name="android_device_xiaomi_selene.git" remote="t25" revision="matrixx-14.0" />
 
   <!-- vendor -->
   <project path="vendor/xiaomi/selene" name="legacy_vendor_xiaomi_selene.git" remote="t25" revision="14" />
@@ -22,10 +21,5 @@
 
   <!-- sepolicy -->
   <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr.git" remote="t25" revision="walmart_lineage-21" />
-
-  <!-- /* common xiaomi */ -->
-
-  <!-- hardware -->
-  <project path="hardware/xiaomi" name="android_hardware_xiaomi.git" remote="mt" revision="lineage-21" />
 
 </manifest>
