@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="HARP" fetch="https://github.com/HitoriAmeRP" />
 
   <!-- device -->
   <project path="device/xiaomi/selene" name="harp_device_xiaomi_selene.git" remote="HARP" revision="android-12.1" />
